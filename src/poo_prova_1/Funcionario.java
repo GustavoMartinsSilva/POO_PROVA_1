@@ -79,12 +79,9 @@ public class Funcionario {
         }
 
         return "========================================\n"
-                + "FUNCIONÁRIO\n"
-                + "Nome: " + nome + "\n"
-                + "CPF: " + cpf + "\n"
-                + "Departamento: " + nomeDepartamento + "\n"
-                + "Cargo: " + nomeCargo + "\n"
-                + String.format("Salário: R$ %.2f%n", salario)
+                + "FUNCIONÁRIO\ + "Nome: " + nome + "\n"
+                + "CPF: " + cpf + "\n" + "Departamento: " + nomeDepartamento + "\n"
+                + "Cargo: " + nomeCargo + "\n" + String.format("Salário: R$ %.2f%n", salario)
                 + "Status: " + status + "\n"
                 + "========================================";
     }
