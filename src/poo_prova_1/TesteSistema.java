@@ -11,17 +11,11 @@ package poo_prova_1;
 
 public class TesteSistema {
     public static void main(String[] args) {
-        Departamento departamentoCompras =
-            new Departamento("Compras");
         
-        Departamento departamentoVendas =
-            new Departamento("Vendas");
-
-        Cargo cargoComprador =
-            new Cargo("Comprador");
-     
-        Cargo cargoVendedor =
-            new Cargo("Vendedor");
+        Departamento departamentoCompras = new Departamento("Compras");
+        Departamento departamentoVendas = new Departamento("Vendas");
+        Cargo cargoComprador = new Cargo("Comprador");
+        Cargo cargoVendedor = new Cargo("Vendedor");
     
         Funcionario funcionario1 = new Funcionario(
             "Gustavo Martins silva", "142.583.285-50",
