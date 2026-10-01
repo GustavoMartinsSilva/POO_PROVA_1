@@ -24,7 +24,7 @@ public class TesteSistema {
 
         Funcionario funcionario2 = new Funcionario(
             "Amanda louca","70.70.70-70", departamentoVendas,cargoVendedor,
-            3000.00
+            3000.00 // a
         );
 
         Funcionario funcionario3 = new Funcionario();
@@ -36,7 +36,7 @@ public class TesteSistema {
      
         funcionario3.alterarDados(
           "Rodrigo Lima", "111.111.111-11", departamentoVendas,
-                cargoVendedor, 2200.00
+          cargoVendedor, 2200.00
         );
 
         System.out.println("\n7. FUNCIONÁRIO APÓS ALTERAÇÃO");
